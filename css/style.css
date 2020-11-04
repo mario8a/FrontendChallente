@@ -132,3 +132,43 @@ body {
    padding-left: .6rem;
    font-size: .8rem;
 }
+
+@media (min-width: 768px) {
+
+   body {
+      background: hsl(229, 57%, 11%);
+      background-image: url('../images/bg-desktop.png');
+      background-repeat: no-repeat;
+      background-position: bottom left;
+      background-size: 100vw 50vh;
+  }
+
+  .container {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+  }
+
+  .container-content-left {
+     margin-right: 20px;
+  }
+
+  .container-content-right {
+   width: 500px;
+   height: 130px;
+  }
+
+  .container-content-right .progress-title {
+     text-align: left;
+     padding-left: 3rem ;
+     padding-top: 30px;
+  }
+
+  .total-GB {
+     top: -40px;
+     left: calc(65%);
+     border-radius: 12px 12px 0px 12px;
+  }
+
+}
