@@ -171,4 +171,56 @@ body {
      border-radius: 12px 12px 0px 12px;
   }
 
+  @media (min-width: 768px) {
+
+   body {
+      background: hsl(229, 57%, 11%);
+      background-image: url('../images/bg-desktop.png');
+      background-repeat: no-repeat;
+      background-position: bottom left;
+      background-size: 100vw 50vh;
+  }
+
+  .container {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+  }
+
+  .container-content-left {
+     margin-right: 20px;
+  }
+
+  .container-content-right {
+   width: 500px;
+   height: 130px;
+  }
+
+  .container-content-right .progress-title {
+     text-align: left;
+     padding-left: 3rem ;
+     padding-top: 30px;
+  }
+
+  .total-GB {
+     top: -40px;
+     left: calc(65%);
+     border-radius: 12px 12px 0px 12px;
+  }
+
+  .triangulo {
+   position: absolute;
+   width: 0;
+   height: 0;
+   bottom: -25px;
+   left: 80%;  
+   border-right: 15px solid white;
+   border-top: 15px solid white;
+   border-left: 15px solid transparent;
+   border-bottom: 15px solid transparent;
+}
+
+}
+
 }
