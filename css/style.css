@@ -90,6 +90,15 @@ body {
    height: 10px;
 }
 
+.circle {
+   left: calc(95%);
+   position: absolute;
+   background-color: white;
+   border-radius: 50%;
+   width: 10px;
+   height: 10px;
+}
+
 .GB-status {
    margin: 0 30px;
    display: flex;
