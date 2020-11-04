@@ -53,3 +53,73 @@ body {
    margin-left: 12px;
    border-radius: 10px;
 }
+
+.container-content-right {
+   position: relative;
+   background-color: var(--cardBg);
+   border-radius: 10px;
+   margin-top: 20px;
+   color: white;
+   width: 300px;
+   height: 120px;
+}
+
+.progress-title {
+   padding-top: 10px;
+   text-align: center;
+   color: #ccc;
+}
+
+.progress-title strong {
+   color: white;
+}
+
+.progress-bar {
+   background-color: var(--bgBlueDark);
+   width: 80%;
+   border: 3px solid var(--bgBlueDark);
+   border-radius: 10px;
+   margin: 12px auto;
+}
+
+.progress {
+   position: relative;
+   background: linear-gradient(to right, #FF9F98, #FF5196 75%);
+   border-radius: 12px;
+   width: 70%;
+   height: 10px;
+}
+
+.GB-status {
+   margin: 0 30px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-size: 12px;
+}
+
+.total-GB {
+   position: absolute;
+   left: calc(50% - 80px);
+   bottom: -30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: black;
+   background-color: white;
+   width: 150px;
+   height: 60px;
+   border-radius: 12px;
+}
+
+.total-GB p {
+   font-size: 1.5rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.total-GB p span {
+   padding-left: .6rem;
+   font-size: .8rem;
+}
