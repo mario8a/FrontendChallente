@@ -8,3 +8,48 @@
    margin: 0;
    box-sizing: border-box;
 }
+
+
+body {
+   background-image: url('../images/bg-mobile.png');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   font-family: 'Raleway';
+}
+
+
+.container-content-left {
+   background-color: var(--cardBg);
+   border-radius: 10px 100px 10px 10px;
+   margin-top: 20px;
+   width: 300px;
+   height: 150px;
+}
+
+.logo {
+   padding-left: 30px;
+   padding-top: 30px;
+}
+
+.logo img {
+   padding-bottom: 20px;
+   width: 100px;
+}
+
+.icons {
+   display: flex;
+   justify-content: flex-start;
+   flex-direction: row;
+}
+
+.icons img {
+   background-color: var(--bgBlueDark);
+   padding: 10px;
+   margin-left: 12px;
+   border-radius: 10px;
+}
